@@ -4,6 +4,7 @@ import { HeroText } from "@/components/HeroText";
 import { FeatureCard } from "@/components/FeatureCard";
 import { Code, Terminal, Zap, Link } from "lucide-react";
 import { Button } from "@/components/ui/button";
+
 const Index = () => {
   const features = [{
     title: "Custom Endpoints",
@@ -41,7 +42,11 @@ const Index = () => {
           <Button size="lg" className="bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700">
             Get Started
           </Button>
-          <Button size="lg" variant="outline" className="border-white/20 bg-transparent">
+          <Button 
+            size="lg" 
+            variant="outline" 
+            className="border-white/20 bg-transparent hover:bg-white hover:text-black"
+          >
             View Documentation
           </Button>
         </motion.div>
