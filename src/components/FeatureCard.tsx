@@ -16,7 +16,9 @@ export const FeatureCard = ({ title, description, icon }: FeatureCardProps) => {
         boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
       }}
     >
-      <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-cyan-500/10 z-0" />
+      <div 
+        className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-cyan-500/10 z-0 border border-white/20"
+      />
       <div className="relative z-10">
         <div className="w-12 h-12 mb-4 text-cyan-400 flex items-center justify-center rounded-lg bg-white/5">
           {icon}
